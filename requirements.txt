@@ -9,11 +9,9 @@ flake8==2.5.4
 itsdangerous==0.24
 mccabe==0.4.0
 pathlib2==2.1.0
-pep8==1.7.0
 pexpect==4.0.1
 pickleshare==0.7.2
 ptyprocess==0.5.1
-pyflakes==1.0.0
 requests==2.10.0
 simplegeneric==0.8.1
 six==1.10.0
