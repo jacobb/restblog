@@ -1,0 +1,10 @@
+<!doctype html>
+<title>Hello from Flask</title>
+{% for entry in entries %}
+<div>
+  <h2>{{ entry.title }}!</h2>
+  <div>{{ entry.body }}</div>
+  <p>ID: {{ entry.id }}</p>
+  <hr>
+</div>
+{% endfor %}
