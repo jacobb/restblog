@@ -1,10 +1,19 @@
 <!doctype html>
-<title>Hello from Flask</title>
-{% for entry in entries %}
-<div>
-  <h2>{{ entry.title }}!</h2>
-  <div class="purple">{{ entry.body }}</div>
-  <p class="orange"><strong>ID: {{ entry.id }}</strong></p>
-  <hr>
-</div>
-{% endfor %}
+<html>
+  <head>
+    <title>Hello from Flask</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  </head>
+  <body>
+    {% for entry in entries %}
+    <div>
+      <h2>{{ entry.title }}!</h2>
+      <div class="purple">{{ entry.body }}</div>
+      <p class="orange"><strong>ID: {{ entry.id }}</strong></p>
+      <hr>
+    </div>
+    {% endfor %}
+  </body>
+</html>

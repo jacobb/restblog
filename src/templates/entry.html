@@ -1,8 +1,16 @@
 <!doctype html>
-<title>{{ entry.title }}</title>
-<div>
-  <h2 class="blue">{{ entry.title }}!</h2>
-  <div>{{ entry.body }}</div>
-  <p>ID: {{ entry.id }}</p>
-  <hr>
-</div>
+<html>
+  <head>
+    <title>{{ entry.title }}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  </head>
+  <body>
+    <div>
+      <h2 class="blue">{{ entry.title }}!</h2>
+      <div>{{ entry.body }}</div>
+      <p>ID: {{ entry.id }}</p>
+      <hr>
+    </div>
+  </body>
+</html>
