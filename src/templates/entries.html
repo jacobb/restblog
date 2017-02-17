@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
   </head>
-  <body>
+  <body style="padding: 5px">
     {% for entry in entries %}
     <div>
-      <h2>{{ entry.title }}!</h2>
+      <h2 style="color: blue">{{ entry.title }}!</h2>
       <div class="purple">{{ entry.body }}</div>
       <p class="orange"><strong>ID: {{ entry.id }}</strong></p>
       <hr>
