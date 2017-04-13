@@ -67,7 +67,7 @@ def api_home():
         return json.dumps(entry_dicts)
 
 
-@app.route('/api/<blog_id>', methods=["PUT", "GET"])
+@app.route('/api/<blog_id>', methods=["POST", "GET"])
 def api_entry(blog_id):
     if request.method == "PUT":
         blog_dict = request.get_json()
